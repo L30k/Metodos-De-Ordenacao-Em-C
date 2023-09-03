@@ -11,18 +11,16 @@ int main()
     
     for (int i = 0; i < tam; i++){
         vet[i] = rand() %100;
+        printf("|%d| ", vet[i]);
     }
+    printf("\n");
     
-    
-    for (int i = 0; i < tam; i++){
-        printf("%d ", vet[i]);
-    }
     
     heapSort(vet, tam-1);
     
-    printf("\n");
+    
     for (int i = 0; i < tam; i++){
-        printf("%d ", vet[i]);
+        printf("|%d| ", vet[i]);
     }
 
 
