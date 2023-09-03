@@ -8,12 +8,14 @@ int main(){
     
     for(int i = 0; i < 10; i++){
         vetor[i] = rand()%100;
+        printf("|%d| ", vetor[i]);
     }
+    printf("\n");
     
 	radixSort(vetor,10);
 	
 	for (int i = 0; i < 10; i++) {
-		printf("%d ", vetor[i]);
+		printf("|%d| ", vetor[i]);
 	}
 
     return 0;
@@ -34,9 +36,7 @@ void radixSort(int vet[], int tam){
         }
         for(int i = 0; i < tam; i++){
             base[i] = (vet[i]/val) % 10;
-            //printf("%d ", base[i]);
         }
-        //printf("\n");
         
         int cont = 0, pos = 0;
         while(cont != 11){
