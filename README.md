@@ -6,6 +6,7 @@ Implemente diversos métodos de ordenação em linguagem de programação C.
 
 Este programa em C é uma ferramenta versátil de ordenação que permite aos usuários ordenar uma lista de elementos em ordem crescente ou decrescente usando diversos algoritmos de ordenação. Os algoritmos de ordenação incluídos neste programa são:
 
+
 • Bubble Sort
 • Counting Sort
 • Heap Sort
