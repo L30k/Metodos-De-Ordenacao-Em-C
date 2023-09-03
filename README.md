@@ -4,7 +4,7 @@ Implemente diversos métodos de ordenação em linguagem de programação C.
 
 ## Descrição
 
-Implemente diversos métodos de ordenação em linguagem de programação C.
+Este projeto consiste em implementar vários algoritmos de ordenação em linguagem de programação C. Cada algoritmo de ordenação é implementado em um programa separado e oferece a capacidade de ordenar uma lista de elementos em ordem crescente.
 
     • Bubble Sort
     • Counting Sort
