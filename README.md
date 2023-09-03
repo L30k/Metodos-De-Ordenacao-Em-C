@@ -26,6 +26,6 @@ Este programa em C é uma ferramenta versátil de ordenação que permite aos us
 
 ## Autor
 
-[Leonardo Yago Nascimento Silva]
+Leonardo Yago Nascimento Silva
 
 
